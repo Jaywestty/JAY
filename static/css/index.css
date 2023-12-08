@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(36, 244, 244);
+    font-size: 50px;
+}
+
+.rosa{
+    font-size: 50px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
