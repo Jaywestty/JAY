@@ -11,24 +11,24 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         {% load static %}
-        <link rel="stylesheet" href="{% static 'signin.css' %}">
+        <link rel="stylesheet" href="{% static 'index.css' %}">
     </head>
     <body>
        
-        <h3>Sign In</h3>
-        <form action="/signin" method="post">
+        <h3 class="hello">Sign In</h3>
+        <form action="/signin" method="post" class="main2">
         {% csrf_token %}
-            <label for="">Username</label>
-            <input type="text" id="username" name="username" placeholder="Enter Your Username" required>
+            <label for="" class="hello4">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter Your Username" required class="form1">
             <br>
 
-            <label for="">Password</label>
-            <input type="password" id="pass1" name="pass1" placeholder="Enter Your Password" required>
+            <label for="" class="hello4">Password</label>
+            <input type="password" id="pass1" name="pass1" placeholder="Enter Your Password" required class="form1">
             <br>
 
            
 
-            <button type="submit"> Sign In</button>
+            <button type="submit" class="signinn"> Sign In</button>
         </form>
         
         <script src="" async defer></script>
